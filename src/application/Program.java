@@ -50,10 +50,12 @@ public class Program {
 				
 			case 5:
 				mostrarMaiorRendimento(pf, pj);
+				break;
 
 			case 6:
 				System.out.println("Saindo....");
 				flag = false;
+				break;
 
 			default:
 				System.out.println("Opção invalida, tente nvamente!");
